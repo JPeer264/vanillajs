@@ -1,0 +1,27 @@
+{
+  "name": "vanillajs",
+  "version": "0.0.0",
+  "description": "vanillajs with tree-shake and typescript support",
+  "main": "./dest/cjs/index.js",
+  "module": "./dest/es/index.js",
+  "scripts": {
+    "build": "rimraf dest && rollup -c",
+    "test": "npm test"
+  },
+  "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.10.5",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  }
+}
