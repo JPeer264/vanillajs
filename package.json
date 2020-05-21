@@ -6,7 +6,18 @@
   "module": "./dest/es/index.js",
   "scripts": {
     "build": "rimraf dest && rollup -c",
-    "test": "npm test"
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix"
+    ]
   },
   "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
   "license": "MIT",
@@ -17,7 +28,9 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "husky": "^4.2.5",
     "jest": "^26.0.1",
+    "lint-staged": "^10.2.4",
     "rimraf": "^3.0.2",
     "rollup": "^2.10.5",
     "rollup-plugin-typescript2": "^0.27.1",
