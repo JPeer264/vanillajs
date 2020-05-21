@@ -1,5 +1,7 @@
 # vanilla.js
 
+[![Build Status](https://travis-ci.com/JPeer264/vanilla.js.svg?branch=master)](https://travis-ci.com/JPeer264/vanilla.js)
+
 > TypeScript and tree-shaking support
 
 Vanilla JS is a fast, lightweight, cross-platform framework for building incredible, powerful JavaScript applications.
