@@ -48,5 +48,6 @@ module.exports = {
       js: 'never',
       ts: 'never',
     }],
+    'no-shadow-restricted-names': 'off',
   }
 };
