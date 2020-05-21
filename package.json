@@ -6,7 +6,8 @@
   "module": "./dest/es/index.js",
   "scripts": {
     "build": "rimraf dest && rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "husky": {
     "hooks": {
