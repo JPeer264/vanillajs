@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JPeer264/vanilla.js.git"
+    "url": "git+https://github.com/JPeer264/vanillajs.git"
   },
   "keywords": [
     "vanillajs",
@@ -36,9 +36,9 @@
     "powerful"
   ],
   "bugs": {
-    "url": "https://github.com/JPeer264/vanilla.js/issues"
+    "url": "https://github.com/JPeer264/vanillajs/issues"
   },
-  "homepage": "https://github.com/JPeer264/vanilla.js#readme",
+  "homepage": "https://github.com/JPeer264/vanillajs#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@typescript-eslint/eslint-plugin": "^2.34.0",

@@ -1,4 +1,4 @@
-# vanilla.js
+# Vanilla JS
 
 [![Build Status](https://travis-ci.com/JPeer264/vanilla.js.svg?branch=master)](https://travis-ci.com/JPeer264/vanilla.js)
 
