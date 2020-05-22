@@ -1,6 +1,6 @@
 {
   "name": "vanillajs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vanillajs with tree-shake and typescript support",
   "main": "./dest/cjs/index.js",
   "module": "./dest/es/index.js",

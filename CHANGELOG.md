@@ -1,3 +1,7 @@
+1.0.2 - May, 22 2020
+
+* 9f7ac28 Docs: change name in readme and pkg (JPeer264)
+
 1.0.1 - May, 21 2020
 
 * 61811a2 Chore: add travis badge (JPeer264)
